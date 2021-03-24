@@ -34,6 +34,8 @@ namespace Task6
             }
             string result = $"Сумма главной диагонали: {mainDia}\nСумма впомогательной диагонали: {secondaryDia}";
             File.WriteAllText("Outlet.out", result);
+
+            Console.ReadKey();
         }
     }
 }
